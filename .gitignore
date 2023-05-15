@@ -32,6 +32,9 @@ migrate_working_dir/
 .pub/
 /build/
 
+# Rust related
+/rust/target/
+
 # Symbolication related
 app.*.symbols
 
