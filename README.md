@@ -6,13 +6,7 @@ Logging: Stream Rust log messages (trace, debug, warn, info, error) to Flutter.
 
 ---
 
-## Stream
-
-This chapter will focus on implementing logging in a Flutter + Rust application. When it comes to handling scenarios where you create a data consumer once and keep adding data to it continuously, Flutter provides a very useful abstraction called a `Stream`.
-
-In this way, it is possible to create a function with little code that sends log messages from Rust to Flutter. Streaming in the opposite direction, from Flutter to Rust, unfortunately is not possible.
-
-## What is our goal?
+## What is the goal?
 
 The aim is to use logger macros on the Rust side, such as trace!, debug!, warn!, info!, and error!, and integrate them into the Rust code in the application. Flutter is supposed to process the incoming log entries.
 
