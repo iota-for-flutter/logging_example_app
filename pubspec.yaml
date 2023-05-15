@@ -1,0 +1,30 @@
+name: logging_example_app
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  ffi: ^2.0.2
+  file_picker: ^5.3.0
+  flutter:
+    sdk: flutter
+  flutter_chat_ui: ^1.6.6
+  flutter_rust_bridge: ^1.75.3
+  freezed_annotation: ^2.2.0
+  image_picker: ^0.8.7+5
+  open_filex: ^4.3.2
+  path_provider: ^2.0.15
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  ffigen: ^7.2.11
+  build_runner: ^2.3.3
+  freezed: ^2.3.3
+
+flutter:
+  uses-material-design: true
